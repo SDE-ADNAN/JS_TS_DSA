@@ -35,8 +35,8 @@ The common divisor string `x` in this case is "ab". We can obtain "ababab" by co
 
 **Time and Space Complexity:**
 
-- Time complexity: O(max(len(str1), len(str2))), due to the concatenation and string slicing operations.
-- Space complexity: O(len(combined_str)), which is in the worst case O(max(len(str1), len(str2))).
+- Time complexity: O(n + m), dominated by string concatenation and comparison.
+- Space complexity: O(n + m) due to temporary concatenated strings.
 
 **Key Improvements:**
 
